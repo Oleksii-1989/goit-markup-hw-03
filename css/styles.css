@@ -13,18 +13,43 @@
 body {
  background-color: var(--main-background-color);
  font-family: 'Roboto', sans-serif;
- width: 1600px;
- height:2015px;
 }
 a {
     text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+}
+li {
+padding: 0px;
+margin: 0px;
 }
 ul {
     list-style: none;
+    margin: 0px;
+    padding: 0px;
 }
 main {
     margin-bottom: -15px;
-    margin-top: -22px;
+}
+h1 {
+    margin: 0px;
+    padding: 0px;
+}
+h2 {
+    margin: 0px;
+    padding: 0px;
+}
+h3 {
+    margin: 0px;
+    padding: 0px;
+}
+p {
+    margin: 0px;
+    padding: 0px;
+}
+img {
+    padding: 0px;
+    margin: 0px;
 }
 /*цвет основного текста #212121, 100%*/
 /*цвет вторичного текста #757575, 100%*/
@@ -42,6 +67,7 @@ main {
      padding-right: 50px;
      display: inline-flex;
      justify-content:space-between;
+     margin: 0px;
  }
  .site-nav .list-item:last-child {
     padding-right:0px;
@@ -51,9 +77,9 @@ main {
     flex-direction:row;
     align-items: center;
     justify-content:space-between;
-    height: 80px;
-    width: 1600px;
     border-bottom: 1px solid #ECECEC;
+    padding-bottom: 32px;
+    padding-top: 32px;
  }
  header nav {
     display: inline-flex;
@@ -86,8 +112,9 @@ main {
 }
 .blackboard {
     background-color:var(--dark-background-color);
-    height: 600px;
     text-align: center;
+    padding-top: 200px;
+    padding-bottom: 198.1px;
 }
 .blackboard button {
 text-align: center;
@@ -110,7 +137,6 @@ border: 0px;
     line-height: 60px;
 }
 .blackboard h1{
-    padding-top: 200px;
     margin-bottom: 30px;
 }
 .hero-title:hover,
@@ -124,24 +150,25 @@ border: 0px;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
-    padding-top: 94px;
     margin-bottom: 50px;
+}
+.facility {
+    padding-top:88px ;
+    padding-bottom: 92px;
 }
 .wwd{
     display: inline-flex;
     flex-direction:row;
-    padding: 0px 215px 94px;
-    margin-left: -30px;
-
 }
 .wwd li{
-    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
 }
-.team-board{
+.team-board {
     background-color: var(--sec-background-color);
-    height: 648px;
-    margin: 0px; 
-    padding: 0px;
+    padding-bottom: 94px;
+    padding-top: 94px;
 }
 .team h3{
     text-align: center;
@@ -154,11 +181,8 @@ border: 0px;
     text-align: center;
     display: inline-flex;
     flex-direction:row;
-    margin-left: -30px;
-    padding: 0px 215px 94px;
-    margin-right: -30px;
     justify-content: space-between;
-    padding-bottom: 94px;
+    
 }
 .team li{
     margin-left: 30px;
@@ -174,7 +198,7 @@ border: 0px;
 .our-benefits {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
+    padding-top: 100px;
 }
 .adv{
     display: inline-flex;
@@ -184,11 +208,6 @@ border: 0px;
 }
 .adv li {
     box-sizing: border-box;
-    padding: 10px;
-  /* Задаём всем элементам маржины слева и сверху */
-  margin-left: 10px;
-  margin-top: 10px;
-  /*  Задаём ширину элементов  */
   flex-basis: calc(100% / 3 - 10px);
 }
 .adv p {
@@ -211,17 +230,13 @@ border: 0px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin: 0px;
-    
 }
 footer {
     background-color:var(--dark-background-color);
-    height: 252px;
-    margin: 0px;
-    padding: 0px;
-
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 footer p {
-    padding-top: 60px;
     padding-bottom: 20px;
 }
 address {
@@ -229,13 +244,6 @@ address {
     font-weight:  400;
     font-style: normal;
     font-size: 14px;
-    margin-left: 165px;
-}
-footer ul {
-    margin-left: 125px
-}
-footer li {
-    margin-bottom: 9px;
 }
 .logo {
     color:#2196F3;
@@ -285,7 +293,6 @@ footer li {
     text-align: center;
     padding-top: 94px;
     justify-content: space-between;
-    padding-bottom: 34px;
 }
 .portfolio h3 {
     color: var(--main-text-color);
@@ -293,8 +300,6 @@ footer li {
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
-    margin-bottom: 4px;
-    margin-left: 24px;
 }
 .portfolio p {
     color: var(--sec-text-color);
@@ -302,9 +307,6 @@ footer li {
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
-    margin-top: 0px;
-    margin-left: 24px;
-    margin-bottom: 24px;
 }
 .project .filter {
     display: inline-flex;
@@ -319,6 +321,7 @@ footer li {
     padding-left: 215px;
     padding-right: 215px;
     padding-bottom: 94px;
+    padding-top: 34px;
     flex-basis: calc(100% / 3);
     justify-content: space-between;
 }
@@ -328,4 +331,15 @@ box-sizing: border-box;
   /*  Задаём ширину элементов  */
   border: 1px solid #EEEEEE;
   margin-bottom: 30px;
+}
+.chapter {
+    padding: 20px 24px;
+}
+.dude {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.go_to {
+    text-align: left;
+    padding-left: 165px;
 }
