@@ -209,12 +209,10 @@ border: 0px;
 .adv{
     display: inline-flex;
     flex-direction:row;
-    padding: 0px 235px;
-    margin: 0px;
 }
 .adv li {
     box-sizing: border-box;
-  flex-basis: calc(100% / 3 - 10px);
+  flex-basis: calc(100% / 4 - 10px);
 }
 .adv p {
     text-align: left;
