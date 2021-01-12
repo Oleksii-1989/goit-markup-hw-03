@@ -81,6 +81,13 @@ img {
     padding-bottom: 32px;
     padding-top: 32px;
  }
+ .container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    }
  header nav {
     display: inline-flex;
     flex-direction:row;
@@ -91,7 +98,6 @@ img {
     flex-direction:row; 
     align-items: center;
     margin-left: 93px;
-    margin-right: 331px;
  }
 .site-nav .link:hover ,
 .site-nav .link:focus{
@@ -252,7 +258,7 @@ address {
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-    margin-left: 165px;
+    padding-left: 165px;
 }
 .link {
     color: var(--main-text-color);
@@ -318,8 +324,6 @@ address {
 .portfolio {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 215px;
-    padding-right: 215px;
     padding-bottom: 94px;
     padding-top: 34px;
     flex-basis: calc(100% / 3);
@@ -342,4 +346,9 @@ box-sizing: border-box;
 .go_to {
     text-align: left;
     padding-left: 165px;
+}
+.connection{
+    display: inline-flex;
+    align-self: center;
+    text-align: start;
 }
