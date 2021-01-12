@@ -67,10 +67,24 @@ img {
      padding-right: 50px;
      display: inline-flex;
      justify-content:space-between;
+     align-items: center;
+     justify-content: flex-end;
      margin: 0px;
  }
+ .container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    }
  .site-nav .list-item:last-child {
     padding-right:0px;
+ }
+ .connection {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-self : center;
  }
  header {
      display: inline-flex;
@@ -91,7 +105,7 @@ img {
     flex-direction:row; 
     align-items: center;
     margin-left: 93px;
-    margin-right: 331px;
+    justify-content: space-between;
  }
 .site-nav .link:hover ,
 .site-nav .link:focus{
@@ -218,7 +232,6 @@ border: 0px;
     font-size: 14px;
     line-height:24px;
     letter-spacing: 0.03em;
-    
 }
 .adv h3 {
     text-align: left;
@@ -252,7 +265,7 @@ address {
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-    margin-left: 165px;
+    padding-left: 165px;
 }
 .link {
     color: var(--main-text-color);
@@ -318,8 +331,6 @@ address {
 .portfolio {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 215px;
-    padding-right: 215px;
     padding-bottom: 94px;
     padding-top: 34px;
     flex-basis: calc(100% / 3);
