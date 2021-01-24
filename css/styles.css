@@ -96,6 +96,7 @@ img {
     flex-direction:row; 
     align-items: center;
     margin-left: 93px;
+    margin-right: 200px;
  }
 .site-nav .link:hover ,
 .site-nav .link:focus{
@@ -182,6 +183,7 @@ border: 0px;
 }
 .wwd li:first-child{
     margin-left: 0px;
+    margin-right: 0px;
 }
 .team-board {
     background-color: var(--sec-background-color);
@@ -210,6 +212,7 @@ border: 0px;
 }
 .team li:first-child{
     margin-left: 0px;
+    margin-right: 0px;
 }
 .team p {
     text-align: center;
@@ -228,7 +231,16 @@ border: 0px;
     box-sizing: border-box;
   flex-basis: calc(100% / 4 - 10px);
   width: 271px;
+  margin-left: 30px;
 }
+.adv li:first-child:{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.adv li:last-child{
+    margin-left: 0px;
+}
+
 .adv p {
     text-align: left;
     color: var(--sec-text-color);
@@ -249,13 +261,16 @@ border: 0px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin: 0px;
+    margin-bottom: 10px;
+    
 }
 footer {
     background-color:var(--dark-background-color);
+    padding-bottom: 60px;
+    padding-top: 60px;
 }
 footer p {
     margin-bottom: 20px;
-    padding-top: 60px;
 }
 address {
     color: var(--main-background-color);
@@ -309,9 +324,9 @@ address {
 }
 .project {
     text-align: center;
-    margin-top: 94px;
+    padding-top: 94px;
     justify-content: space-between;
-    margin-bottom: 94px;
+    padding-bottom: 94px;
 }
 .portfolio h3 {
     color: var(--main-text-color);
@@ -357,9 +372,9 @@ box-sizing: border-box;
 .dude {
     padding-top: 30px;
     padding-bottom: 30px;
+    line-height:280%
 }
 .go_to {
     text-align: left;
     line-height:180%;
-    padding-bottom: 60px;
 }
